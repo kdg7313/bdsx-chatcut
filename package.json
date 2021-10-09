@@ -1,0 +1,18 @@
+{
+  "name": "@bdsx/chatcut",
+  "version": "1.0.1",
+  "description": "chat system",
+  "main": "index.js",
+  "keywords": [],
+  "author": "kdg7313 (https://github.com/kdg7313)",
+  "license": "MIT",
+  "bdsxPlugin": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepare": "tsc || exit 0"
+  },
+  "devDependencies": {
+    "bdsx": "file:../bdsx"
+  }
+}
